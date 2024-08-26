@@ -1,7 +1,5 @@
-<!--
-  You'll want to use Modder's Multitool to generate the contentuid value, by ticking the "Handle" checkbox and hitting Generate
--->
-
 <contentList date="9/3/2023 18:38">
-  <content contentuid="hcbbb0c35g4534g4892ga604gc2ec1fc9696c" version="1">Localized Text Here</content>
+  <!--Class Description-->
+  <content contentuid="hf840ec22gb08eg4394g9de4gc35343540da0" version="1">Shinobi</content>
+  <content contentuid="hea28056aga861g4f80gadf7gc1666ca117c2" version="1">Become a ninja</content>
 </contentList>
