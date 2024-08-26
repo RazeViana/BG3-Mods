@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="333"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Dexterity;Wisdom"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="8ef5e7da-9a1d-4a34-b5f3-7a0a97be8542"/>
+                    <attribute id="UUID" type="guid" value="7bdf0712-1c09-443d-a8c2-bdce56ccfc61"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

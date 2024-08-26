@@ -5,11 +5,12 @@
         <node id="root">
             <children>
                 <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="UUID" type="guid" value="66d6064e-a6f2-4fb4-81ef-68a8bbcef2c2"/>
+                    <attribute id="TableUUID" type="guid" value="8ef5e7da-9a1d-4a34-b5f3-7a0a97be8542"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,4);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
                     <attribute id="Name" type="LSString" value="Shinobi"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="TableUUID" type="guid" value="8ef5e7da-9a1d-4a34-b5f3-7a0a97be8542"/>
-                    <attribute id="UUID" type="guid" value="66d6064e-a6f2-4fb4-81ef-68a8bbcef2c2"/>
+                    <attribute id="Level" type="uint8" value="1"/>
                 </node>
             </children>
         </node>

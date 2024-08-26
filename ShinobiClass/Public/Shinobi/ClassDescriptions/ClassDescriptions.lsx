@@ -5,18 +5,25 @@
         <node id="root">
             <children>
                 <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="UUID" type="guid" value="fce62ff0-50a0-4c19-89d3-59d7179279ca"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="8ef5e7da-9a1d-4a34-b5f3-7a0a97be8542"/>
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="hea28056aga861g4f80gadf7gc1666ca117c2" version="1"/>
+                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="Name" type="FixedString" value="Shinobi"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hf840ec22gb08eg4394g9de4gc35343540da0" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="hea28056aga861g4f80gadf7gc1666ca117c2" version="1"/>
                     <attribute id="HpPerLevel" type="int32" value="6"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="Shinobi"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="8ef5e7da-9a1d-4a34-b5f3-7a0a97be8542"/>
-                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
-                    <attribute id="SpellCastingAbility" type="uint8" value="2"/>
-                    <attribute id="UUID" type="guid" value="fce62ff0-50a0-4c19-89d3-59d7179279ca"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/> 
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9aa3faab-32f9-4448-9a1e-e9adb08f5f8d"/> 
+                        </node>
+                    </children>
                 </node>
             </children>
         </node>
